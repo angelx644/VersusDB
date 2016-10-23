@@ -147,12 +147,26 @@ button {
 }
 
 /* Add padding to containers */
-.container {
+.container1 {
+	margin-left: 20%;
+    padding: 16px;
+}
+
+/* Add padding to containers */
+.container2 {
+	margin-left: 10%;
     padding: 16px;
 }
 
 /* The "Forgot password" text */
 span.psw {
-    float: right;
+    float: initial;
     padding-top: 16px;
+    padding-left: 30%;
+}
+
+/* The UserName box */
+.h1 {
+	color: red;
+	border-style: groove;
 }
