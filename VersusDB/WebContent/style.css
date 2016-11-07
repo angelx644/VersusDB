@@ -110,6 +110,21 @@ p {
     font-size: 2em;
 }
 
+p#error1{
+	font-size: 1em;
+	color: red;
+}
+
+p#error2{
+	font-size: 1em;
+	color: red;
+}
+
+p#error3{
+	font-size: 1em;
+	color: red;
+}
+
 img.resize{
    max-width:75%;
    max-height:75%;
