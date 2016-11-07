@@ -89,7 +89,7 @@ span.psw {
 }
 
 /* The UserName box */
-.h1 {
+.h2 {
 	color: red;
 	border-style: groove;
 }
@@ -123,6 +123,16 @@ p#error2{
 p#error3{
 	font-size: 1em;
 	color: red;
+}
+
+p#bottom{
+	font-size: 1.5em;
+	color: blue;
+	position:fixed;
+   	left:40px;
+   	bottom:0px;
+   	height:30px;
+   	width:100%;
 }
 
 img.resize{
