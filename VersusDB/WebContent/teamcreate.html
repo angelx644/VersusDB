@@ -2,7 +2,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Request Team Creation</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="request.css">
 </head>
 <body>
 	<ul>
@@ -16,15 +16,22 @@
 		<li><a href="about.html">About</a></li>
 	</ul>
 
-
 	<div id="centerDoc">
+		<br><br><br>
 		<h1>Request To Create A New Team</h1>
-		<label><b>Enter desired Team Name </b></label> <input id="id1"
-			type="text" placeholder="Enter Team Name" name="teamname" required>
-		<br> <label><b>Enter desired Motto </b></label> <input id="id2"
-			type="text" placeholder="Enter Motto" name="motto" required>
-		<br>
-		<button class="cancelbtn">Request Team</button>
+		
+		<div>
+		  	<form>
+			    <label for="name">Team Name</label>
+				<input type="text" id="name" name="name">
+				<p id="error2"></p>
+				
+				<label for="motto">Team Motto</label>	
+			    <input type="text" id="loc" name="location">
+			    <p id="error3"></p>
+			    <input type="submit" value="Submit" onclick="clicked()">
+		  	</form>
+		</div>
 	</div>
 
 </body>

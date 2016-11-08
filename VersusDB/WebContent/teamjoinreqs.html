@@ -1,0 +1,41 @@
+html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Team Join Requests</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<ul>
+		<li><a href="index.html"> <img border="0" alt="VersusDB"
+				src="VersusDBLogo.png" width="222" height="35">
+		</a></li>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="matches.html">Matches</a></li>
+		<li><a href="teams.html">Teams</a></li>
+		<li><a href="profile.html">Profile</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+
+	<div id="centerDoc">
+		<h2>Here is a list of requests to join your team.</h2>
+		<p style="font-size: 1.5em;">Click on the Approve button next to
+		the person you want to join your team.</p>
+		<p class="mix">
+		1) Jody Parker<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Approve</button><br>
+		2) Pat Rustle<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Approve</button><br>
+		3) Laura Turner<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Approve</button><br>
+		</p>
+		
+		<script>
+			function clicked() {
+		    	confirm("Are you sure you want this player to join your team?"); /* confirmation window pops up */
+			}
+		</script>	
+		
+	</div>
+
+</body>
+</html>

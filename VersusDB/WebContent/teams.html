@@ -20,25 +20,82 @@
 	<div id="centerDoc">
 		<h1>Teams Page</h1>
 		<p>
-			<a href="pendingteam.html">Pending Teams</a><br> <br> <a
-				href="teamcreate.html">Request Team Creation</a><br> <br>
+			<a id="hide" href="pendingteam.html">Pending Teams</a><br> <br>
+			<a 	href="teamcreate.html">Request Team Creation</a><br> <br>
+			<a id="hide2" href="teamjoinreqs.html">Team Join Requests</a><br> <br>
 		</p>
 		<p style="font-size: 1.5em;">List of Teams:</p>
-
+		
+		<p id="hide3" style="font-size: 1.25em; color: red;"></p>
 		<p class="mix">
-			The Avengers<br> Backyard Boys<br> The Hateful 8<br>
-			Code Blue<br> Ridiculous 6<br> Hamburglars<br> The
-			Ninjas<br>
+			The Avengers
+			<select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br> 
+			Backyard Boys
+			<select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br> 
+			The Hateful 8
+			<select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br> 
+			Code Blue
+			<select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br>
+			Ridiculous 6
+			 <select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br>
+			Hamburglars
+			<select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br> 
+			The Ninjas
+			<select>
+			<option value="join">Request to Join Team</option>
+			<option value="leave">Leave Team</option>
+			<option value="disband">Disband Team</option>
+			<option value="list">List of Players</option>
+			</select><br> 
 		</p>
 
 	</div>
 
 	<script>
-		function hide() {
+		function hideRef() {
 			var obj = document.getElementById("hide");
 			obj.style.display = "none";
 		}
-		//hide();	/* FOR HIDING LINK */
+		function hideCap() {
+			var obj = document.getElementById("hide2");
+			obj.style.display = "none";
+		}
+		//hideRef();	/* FOR HIDING LINK */
+		//hideCap();
+		//confirm("Are you sure you want to leave this team?");
+		//confirm("Are you sure you want to disband this team?");
+		//document.getElementById("hide3").innerHTML = "Sorry, you are not on this team.";
+		//document.getElementById("hide3").innerHTML = "Sorry, you are not the captain of this team.";
 	</script>
 </body>
 </html>
