@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pending Teams</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<ul>
+		<li><a href="login.html"> <img border="0" alt="VersusDB"
+				src="VersusDBLogo.png" width="222" height="35">
+		</a></li>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="matches.html">Matches</a></li>
+		<li><a href="teams.html">Teams</a></li>
+		<li><a href="profile.html">Profile</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+	
+
+	<div id="centerDoc">
+		<h1>Pending Teams</h1>
+		<p class="mix">
+		1) Patriots<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Approve</button><br>
+		2) The Avengers<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Approve</button><br>
+		3) Hamburglars<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Approve</button><br>
+		</p>
+		
+		<script>
+			function clicked() {
+		    	confirm("Are you sure you want to approve this team?"); /* confirmation window pops up */
+			}
+		</script>			
+	</div>
+
+</body>
+</html>
