@@ -22,11 +22,27 @@
 	<div
 		style="padding: 50px; margin-top: 30px; background-color: #DDD; height: 1500px;">
 		<div class="container">
-			<label><b>Username</b></label> <input type="text"
+			<label><b>Username</b></label> <input id="id1" type="text"
 				placeholder="Enter Username" name="uname" required> <br>
-			<label><b>Password</b></label> <input type="password"
+			<p id="error1"></p><br>
+			<label><b>Password</b></label> <input id="id2" type="password"
 				placeholder="Enter Password" name="psw" required> <br>
-			<button type="submit">Login</button>
+			<p id="error2"></p><br>
+			<button onclick="check()">Login</button>
+			
+	<script>
+		function check(){
+			var obj = document.getElementById("id1").value;
+			var obj2 = document.getElementById("id2").value;
+			if(obj === "")
+				document.getElementById("error1").innerHTML = "Username field cannot be empty. Try again.";
+			else if(obj2 === "")
+				document.getElementById("error2").innerHTML = "Password field cannot be empty. Try again.";
+			else
+				document.getElementById("error1").innerHTML = "Invalid username or password. Try again."
+		}
+	</script>
+			
 			<input type="checkbox" checked="checked"> Remember me
 		</div>
 
@@ -35,6 +51,5 @@
 			<span class="psw"><a href="#">Forgot password?</a></span>
 		</div>
 	</div>
-
 </body>
 </html>
