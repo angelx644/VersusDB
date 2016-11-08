@@ -131,8 +131,8 @@ p#error2{
 }
 
 p#error3{
-	font-size: 1em;
-	color: red;
+	font-size: 1.33em;
+	color: blue;
 }
 
 p#bottom{
@@ -160,4 +160,5 @@ img.resize{
 u {
     text-decoration: underline;
 }
+
 
