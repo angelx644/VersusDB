@@ -1,0 +1,39 @@
+<template name="ranked">
+	<div id="centerDoc">
+		<h1>Ranked Matches</h1>
+		<p>
+		<a id="cap1" href="#" class="rankedrequest">Request Ranked Match</a><br>
+		<a id="cap2" href="#" class="rankedaccept">Accept Ranked Match</a><br>
+		<a id="ref1" href="#" class="pendingranked">Pending Ranked Matches</a><br>
+		<a id="ref2" href="#" class="creatematch">Create Ranked Match</a>
+		</p>
+        <p style="font-size: 1.5em;">List of Scheduled Ranked Matches:</p>
+		
+		<p class="mix">
+		1) The Avengers VS Backyard Boys - Football - Tropical Park - 11/28/2016 - 12:00 PM<br>
+		2) The Hateful 8 VS Code Blue - Ping Pong - FIU - 12/1/2016 - 9:30 AM<br>
+		3) Ridiculous 6 VS Hamburglars - Tennis - Tropical Park - 12/3/2016 - 4:15 PM<br>
+		4) Hamburglars VS The Avengers - Soccer - Tamiami Park - 12/9/2016 - 3:00 PM<br>
+		5) Backyard Boys VS The Ninjas - Manhunt - FIU - 12/9/2016 - 7:30 PM<br>
+		</p>
+	</div>	
+
+<script>
+function hideCap() {
+	var cap1 = document.getElementById("cap1");
+	var cap2 = document.getElementById("cap2");
+	cap1.style.display = "none";
+	cap2.style.display = "none";
+}
+function hideRef() {
+	var ref1 = document.getElementById("ref1");
+	var ref2 = document.getElementById("ref2");
+	ref1.style.display = "none";
+	ref2.style.display = "none";
+}
+//hideCap(); /* FOR HIDING LINKS */
+//hideRef();
+
+</script>
+
+</template>

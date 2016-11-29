@@ -1,0 +1,30 @@
+<template name="rankedaccept">
+	
+	<div id="centerDoc">
+		<h1>Ranked Match Requests</h1>
+		<h2>Here is a list of your ranked match requests. Click on
+		the Accept button next to one to accept it and schedule the
+		match.</h2>
+		
+		<p class="mix">
+		1) Backyard Boys - Manhunt - Indian Hammocks Park - 11/31/2016 - 12:00 PM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Accept</button><br>
+		2) The Hateful 8 - Ninja - FIU - 12/11/2016 - 11:30 AM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Accept</button><br>
+		
+		</p>
+		
+		<script>
+			function clicked() {
+		    	confirm("Are you sure you want to accept this match?"
+		    			+ " Once you press yes, the match will be "
+		    			+ "scheduled and every member of both teams"
+		    			+ " will be notified."); 
+			}
+		</script>	
+		
+		
+		
+		
+	</div>
+</template>

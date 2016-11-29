@@ -1,0 +1,21 @@
+<template name="pendingranked">
+	<div id="centerDoc">
+		<h1>Pending Ranked Matches</h1>
+		<h2>Click on the Officiate button next to the match you want to referee.</h2>
+		<p class="mix">
+		1) Code Blue VS Backyard Boys - Frisbee - Tropical Park - 11/28/2016 - 12:00 PM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Officiate</button><br>
+		2) The Hateful 8 VS The Avengers - Ping Pong - FIU - 12/1/2016 - 9:30 AM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Officiate</button><br>
+		3) Patriots VS Hamburglars - Softball - Tropical Park - 12/3/2016 - 4:15 PM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Officiate</button><br>
+		</p>
+		
+		<script>
+			function clicked() {
+		    	confirm("Are you sure you want to officiate this match?"); /* confirmation window pops up */
+			}
+		</script>			
+	</div>
+
+</template>

@@ -1,0 +1,42 @@
+<template name="rankedrequest">
+
+	<div id="centerDoc">
+		<br><br><br>
+		<h1>Ranked Match Request</h1>
+		
+	<div>
+	  	<form>
+		    <label for="act">Activity</label>
+		    <input type="text" id="act" name="activity">
+		    <p id="error1"></p>
+		    
+			<label for="oteam">Opposing Team's Name</label>
+			<input type="text" id="oteam" name="opponentteam">
+			<p id="error2"></p>
+			
+			<label for="loc">Location of Match</label>	
+		    <input type="text" id="loc" name="location">
+		    <p id="error3"></p>
+		    
+		    <label for="date">Date of Match&nbsp;&nbsp;&nbsp;</label>
+		    <input type="date" id="date" name="date" >
+		    
+		    <label for="time">&nbsp;&nbsp;&nbsp;Time of Match&nbsp;&nbsp;&nbsp;</label>
+		    <input type="time" id="time" name="time" >
+		  	<br><br>
+		    <input type="submit" value="Submit" onclick="clicked()">
+	  	</form>
+	</div>
+	
+<!-- 	<script> 
+// 		function clicked() {
+// 			document.getElementById("act").value = "Activity field cannot be blank. Try again.";
+		
+// 		}
+	
+ 	</script> -->
+		
+		
+	</div>
+
+</template>
