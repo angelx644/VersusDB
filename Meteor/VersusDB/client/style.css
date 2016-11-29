@@ -1,0 +1,164 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin:0;
+	background-color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.btn {
+  	width: auto;
+    padding: 10px 18px;
+    background-color: green;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+}
+
+/* Add padding to containers */
+.container1 {
+	margin-left: 20%;
+    padding: 16px;
+}
+
+/* Add padding to containers */
+.container2 {
+	margin-left: 10%;
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: left
+    padding-top: 16px;
+    padding-left: 30%;
+}
+
+/* The UserName box */
+.h2 {
+	color: red;
+	border-style: groove;
+}
+
+#navigation {
+	
+}
+
+#centerDoc { 
+	position: absolute; 
+	z-index: 15; 
+	padding: 0 0 20px 0; /*top right bottom left*/ 
+	margin-top: 50px;
+	margin-left: 50px; 
+}
+
+p {
+    font-size: 2em;
+}
+
+p#error1{
+	font-size: 1em;
+	color: red;
+}
+
+p#error2{
+	font-size: 1em;
+	color: red;
+}
+
+p#error3{
+	font-size: 1.33em;
+	color: blue;
+}
+
+p#bottom{
+	font-size: 1.5em;
+	color: blue;
+	position:fixed;
+   	left:40px;
+   	bottom:0px;
+   	height:30px;
+   	width:100%;
+}
+
+p.mix {
+	border-style: dotted dashed solid double;
+	font-size: 1.5em;
+	color: green;
+	border-color: gray;
+}
+
+img.resize{
+   max-width:55%;
+   max-height:50%;
+}
+
+u {
+    text-decoration: underline;
+}
+
+
