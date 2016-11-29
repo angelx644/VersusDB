@@ -1,5 +1,5 @@
 {
-  "name": "simple-todos",
+  "name": "VersusDB",
   "private": true,
   "scripts": {
     "start": "meteor run"

@@ -16,6 +16,7 @@ import '../imports/ui/creatematch.html';
 import '../imports/ui/pendingteam.html';
 import '../imports/ui/teamcreate.html';
 import '../imports/ui/teamjoinreqs.html';
+import '../imports/ui/ranked.js';
 
 Meteor.startup(function () {
   Session.setDefault("templateName", "login")
