@@ -4,7 +4,7 @@ import { Matches } from '../api/matches.js';
 
 import './ranked.html';
 
-Template.ranked.helpers({
+Template.matches.helpers({
     matches() {
         return Matches.find({});
     },

@@ -6,11 +6,13 @@
 		the Accept button next to one to accept it and schedule the
 		match.</h2>
 		
+		<ol>
+			{{#each requests}}
+				<li> {{creatorTeam}} , {{eventName}} , {{eventLoc}}</li>
+			{{/each}}
+		</ol>
 		<p class="mix">
-		1) Backyard Boys - Manhunt - Indian Hammocks Park - 11/31/2016 - 12:00 PM<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Accept</button><br>
-		2) The Hateful 8 - Ninja - FIU - 12/11/2016 - 11:30 AM<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Accept</button><br>
+
 		
 		</p>
 		
@@ -25,6 +27,11 @@
 		
 		
 		
-		
 	</div>
+<!--		1) Backyard Boys - Manhunt - Indian Hammocks Park - 11/31/2016 - 12:00 PM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Accept</button><br>
+		2) The Hateful 8 - Ninja - FIU - 12/11/2016 - 11:30 AM<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<button class="cancelbtn" onclick="clicked()">Accept</button><br> -->
+<!--<button class="cancelbtn" onclick="clicked()">Accept</button>-->				
+	
 </template>
