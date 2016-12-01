@@ -3,13 +3,18 @@
 	<div id="centerDoc">
 		<h1>Teams Page</h1>
 		<p>
-			<a id="hide" href="#" class="pendingteam">Pending Teams</a><br> <br>
-			<a 	href="#" class="teamcreate">Request Team Creation</a><br> <br>
+			<a 	href="#" class="teamcreate">Create Team</a><br> <br>
 			<a id="hide2" href="#" class="teamjoinreqs">Team Join Requests</a><br> <br>
 		</p>
 		<p style="font-size: 1.5em;">List of Teams:</p>
 		
-		<p id="hide3" style="font-size: 1.25em; color: red;"></p>
+		<ol>
+			{{#if currentUser}}
+            {{#each teams}}
+                <li>{{name}}</li><br>
+            {{/each}}
+			{{/if}}
+        </ol>
 		<p class="mix">
 			The Avengers
 			<select>

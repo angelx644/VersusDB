@@ -1,6 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 
 import '../imports/api/matches.js';
+import '../imports/api/teams.js';
 
 
 Meteor.startup(() => {
